@@ -2,9 +2,8 @@ name: API Automation using RestAssured with Maven
 on:
   workflow_dispatch
 jobs:
-  build:
-    runs-on:ubuntu-latest
-    steps:
+  build: runs-on:ubuntu-latest
+  steps:
         - name: checks out the project in the runner
           uses: actions/checkout@v4
         - name: Set up JDK 17
